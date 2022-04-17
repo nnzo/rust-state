@@ -1,0 +1,15 @@
+[package]
+name = "state"
+version = "1.0.0"
+edition = "2018"
+publish = false
+
+[dependencies]
+rocket = "0.4.10"
+flume = "0.10"
+uuid = "0.7"
+lazy_static = "1.0"
+
+[dependencies.rocket_contrib]
+default-features = false
+features = ["uuid"]
